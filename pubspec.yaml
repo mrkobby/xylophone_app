@@ -1,0 +1,24 @@
+name: xylophone_app
+description: A simple and straightforward app. Xylophone lets you play this beautiful instrument on your iPhone and iPad at any time!
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  audioplayers: ^0.13.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/
